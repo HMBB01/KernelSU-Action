@@ -12,8 +12,8 @@ on:
     - cron: "50 9,21 * * *"
 
 env:
-  kernel_repository: PixelExperience-Devices/kernel_xiaomi_polaris
-  kernel_branch: thirteen
+  kernel_repository: LineageOS/android_kernel_xiaomi_sdm845
+  kernel_branch: lineage-20
   device: dipper
   defconfig: dipper_defconfig
   use_aosp_clang: false
